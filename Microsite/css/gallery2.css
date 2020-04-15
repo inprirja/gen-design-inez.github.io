@@ -1,0 +1,93 @@
+.gallery {
+    background:#ffe;
+    padding:4% 0
+    line-height: 1.5;
+    margin-top:10px;
+    margin-bottom:40px;
+    margin-left: 30px
+;
+}
+
+
+.gallery h3 {
+    text-align: center;
+    font-size:1.25rem;
+    font-weight: 100;
+}
+
+
+.gallery-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.gallery-list-item {
+    margin:1%;
+    width:30%;
+}
+
+
+.gallery-list-item figure {
+    margin:0;
+    padding:10px;
+}
+
+
+.gallery-list-item figure img {
+    width:100%;
+    margin-bottom:0px;
+}
+
+
+.gallery-list-item figcaption {
+/*    display:none;*/
+}
+
+.gallery-list-item figcaption p {
+    width:100%;
+    font-size: 0.75em;
+    color: #000;
+}
+
+
+
+/* *************************************** */
+/* gallery-specific media queries          */
+/* *************************************** */
+
+
+/* 1 mobile-portrait */
+@media only screen 
+and (orientation : portrait) 
+and (min-device-width: 414px) {
+    
+    .gallery-list-item {
+        width:100%;
+        margin:2% 8%;
+    }
+    
+  }
+
+/* 2 mobile-landscape */  
+@media only screen 
+and (orientation : landscape) 
+and (min-width: 800px) { 
+    .gallery-list-item {
+        margin:2%;
+        width:45%;
+    }
+  }
+
+/* 3 desktop */
+@media only screen 
+and (min-width: 1280px) { 
+    .gallery-list-item {
+        margin:1%;
+        width:30%;
+    }
+  }
+

@@ -1,0 +1,21 @@
+
+
+*, html {
+    font-family: 'Helvetica', sans-serif;
+    font-size:100%;
+    
+a { 
+font-family: 'Helvetica'
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left: 30px
+    }
+
+h1 {
+font-family: 'helvetica';
+    line-height: 2;
+    margin-top:10px;
+    margin-bottom:40px;
+    margin-left: 60px
+
+}
